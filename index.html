@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./slides.css">
+</head>
+<body>
+
+    <div class="slide introduction">
+        <div class="header">
+            <h1>Monitoria de JavaScript</h1>
+            <div class="sub">
+                <h2>Leonardo Pimentel Santos de Araujo - UNIJORGE</h2>
+                <p><span>github: </span><a target="_blank" href="https://www.github.com/lumi2021">lumi2021</a></p>
+            </div>
+        </div>
+        <div class="images">
+            <img src="static/js_logo.png">
+            <img src="static/silly_boi.png">
+        </div>
+    </div>
+    
+    <div class="slide sources">
+        <h1>Fontes</h1>
+
+        <div>
+            <a target="_blank" id="embed_wikipedia_br_js" href="https://pt.wikipedia.org/wiki/JavaScript"></a>
+            <a target="_blank" id="embed_wikipedia_en_js" href="https://en.wikipedia.org/wiki/JavaScript"></a>
+            <a target="_blank" id="embed_mozila_br_js" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"></a>
+            <a target="_blank" id="embed_wikipedia_pt_brendan_eich" href="https://pt.wikipedia.org/wiki/Brendan_Eich"></a>
+        </div>
+    </div>
+
+    <div class="slide history history_0">
+        <div class="header">
+            <h1>História</h1>
+            <h2>anos 90: web 1.0</h2>
+        </div>
+
+        <div class="images">
+            <div>
+                <img src="static/web1_img_0.png">
+                <img src="static/web1_img_1.png">
+            </div>
+            <div>
+                <img src="static/web1_img_2.png">
+                <img src="static/web1_img_3.png">
+                <img src="static/web1_img_4.png">
+            </div>
+        </div>
+            
+    </div>
+
+    <div class="slide history history_1">
+        <div class="header">
+            <h1>História</h1>
+        </div>
+        <div class="images">
+            <img src="static/ncsa_mosaic_0.png">
+            <img src="static/ncsa_mosaic_1.png">
+        </div>
+    </div>
+
+    <div class="slide history history_2">
+        <div class="header">
+            <h1>História</h1>
+
+            <div class="images">
+                <div class="left">
+                    <img src="static/netscape_logo.png">
+                    <div class="step" data-show-step="1">
+                        <img src="static/firefox_logo_0.png">
+                        <img src="static/arrow.svg">
+                    </div>
+                </div>
+                <img src="static/netscape_browser.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide history history_3">
+        <div class="header">
+            <h1>História</h1>
+        </div>
+        <div class="images">
+            <img src="static/netscape_browser.png">
+        </div>
+    </div>
+
+    <div class="slide history history_4">
+        <div class="header">
+            <h1>História</h1>
+            <h2>Brendan Eich</h2>
+        </div>
+
+        <div class="images">
+            <img src="static/firefox_logo_1.png" data-show-step="1">
+            <img src="static/brendan_eich.jpg">
+            <img src="static/brave_logo.png" data-show-step="2">
+        </div>
+    </div>
+    
+    <div class="slide history history_5">
+        <div class="header">
+            <h1>História</h1>
+            <h2>Brendan Eich</h2>
+        </div>
+
+        <div class="content">
+            <div class="left"> <img src="static/brendan_eich.jpg"> </div>
+
+            <div class="right">
+                <div class="netscape-logo" data-hide-step="1">
+                    <img src="static/netscape_logo.png">
+                </div>
+
+                <div class="item" data-show-step="1">
+                    <h2>Mocha</h2>
+                    <img src="static/mocha_redmark.svg" data-show-step="2">
+                </div>
+
+                <div class="item" data-show-step="2">
+                    <h2>LiveScript</h2>
+                    <img src="static/livescript_redmark.svg" data-show-step="3">
+                </div>
+
+                <div class="item" data-show-step="3">
+                    <h2>JavaScript</h2>
+                    <p>(Que não tem nada a ver com Java :) )</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="slide history history_6">
+        <div class="header">
+            <h1>História</h1>
+        </div>
+
+        <div class="content">
+            <img src="static/netscape_logo.png">
+            <div>
+                <img src="static/internet_explorer_logo.webp" data-show-step="1">
+                <img src="static/chrome_logo.png" data-show-step="2">
+                <img src="static/opera_logo.webp" data-show-step="3">
+            </div>
+            <div data-show-step="3">
+                <img src="static/firefox_logo_1.png">
+                <img src="static/safari_logo.png">
+            </div>
+        </div>
+
+        <div class="compat-chart">
+            <img src="static/compatibility_chart.png" data-show-step="4">
+        </div>
+
+    </div>
+
+    <div class="slide history history_7">
+        <div class="header">
+            <h1>História</h1>
+        </div>
+
+        <div class="content">
+            <img src="static/ecma_logo.png">
+            <h2 data-show-step="1">ECMAScript</h2>
+        </div>
+    </div>
+
+    <div class="slide blank"></div>
+
+    <div class="slide the-lang">
+        <div class="left">
+            <div class="header"><h1>A Linguagem</h1></div>
+            <div class="a">
+                <p>- Leve</p>
+                <p>- Simples</p>
+                <p>- Interpretada</p>
+                <p>- Fracamente tipada</p>
+                <p>- Tolerante à falhas</p>
+            </div>
+            <div class="a">
+                <p>- Imperativa</p>
+                <p>- Procedural</p>
+                <p>- Funcional</p>
+                <p>- Orientada a objetos</p>
+                <p>- Orientada a eventos</p>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="code"><pre><code class="language-js">
+class Animal {
+    constructor(voice){
+        this.voice = voice || 'grunt';
+    }
+
+    speak() {
+        display(this.voice)
+    }
+}
+
+class Cat extends Animal {
+    constructor(name, color) {
+        super('Meow');
+        this.name = name;
+        this.color = color;
+    }
+}
+
+var fluffy = new Cat('Fluffy', 'white');
+
+console.log(Object.keys(fluffy));
+console.log(fluffy.hasOwnProperty('name'));
+            </code></pre></div>
+        </div>
+    </div>
+
+    <div class="slide the-tools">
+        <div class="left">
+            <div class="code"><pre><code class="language-js">
+const alunos = [
+    { nome: "Carlos", notas: [7, 8, 9] },
+    { nome: "Ana", notas: [5, 6, 4] }
+];
+
+function calcularMedia(notas) {
+    const soma = notas.reduce((total, nota) => {
+        return total + nota;
+    }, 0);
+
+    return soma / notas.length;
+}
+
+alunos.forEach(aluno => {
+    const media = calcularMedia(aluno.notas);
+
+    console.log(`\nAluno: ${aluno.nome}`);
+    console.log(`Média: ${media.toFixed(2)}`);
+
+    if (media >= 7) console.log("Status: Aprovado");
+    else console.log("Status: Reprovado");
+});
+            </code></pre></div>
+        </div>
+        <div class="right">
+            <div class="header"><h1>As ferramentas</h1></div>
+            <div class="a" data-show-step="1">
+                <h2>Desenvolvimento:</h2>
+                <div>
+                    <img src="static/vscode_logo.png">
+                    <img src="static/webstorm_logo.png">
+                </div>
+            </div>
+            <div class="b" data-show-step="2">
+                <h2>Runtime Web:</h2>
+                <div>
+                    <img src="static/chrome_logo.png">
+                    <img src="static/firefox_logo_1.png">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Microsoft_Edge_logo_%282019%29.svg">
+                </div>
+            </div>
+            <div class="c" data-show-step="3">
+                <h2>Runtime local:</h2>
+                <div>
+                    <img src="static/nodejs_logo.svg">
+                    <img src="static/bun_logo.png">
+                    <img src="static/deno_logo.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide capabilities capabilities_0">
+        <div class="content">
+            <input type="text" oninput="document.getElementById('digite-alguma-coisa').innerHTML = 'o texto tem ' + this.value.length + ' caracteres'">
+            <h2 id="digite-alguma-coisa">Digite alguma coisa!</h1>
+        </div>
+    </div>
+
+    <div class="slide capabilities capabilities_1">
+        <div class="left">
+            <button onclick="{
+                document.getElementById('light-bulb-0').getAttribute('src') == 'static/bulb_off.svg'
+                    ? document.getElementById('light-bulb-0').setAttribute('src', 'static/bulb_on.svg')
+                    : document.getElementById('light-bulb-0').setAttribute('src', 'static/bulb_off.svg');
+            }">Switch 1</button>
+
+            <button onclick="{
+                document.getElementById('light-bulb-1').getAttribute('src') == 'static/bulb_off.svg'
+                    ? document.getElementById('light-bulb-1').setAttribute('src', 'static/bulb_on.svg')
+                    : document.getElementById('light-bulb-1').setAttribute('src', 'static/bulb_off.svg');
+            }">Switch 2</button>
+
+            <button onclick="{
+                document.getElementById('light-bulb-2').getAttribute('src') == 'static/bulb_off.svg'
+                    ? document.getElementById('light-bulb-2').setAttribute('src', 'static/bulb_on.svg')
+                    : document.getElementById('light-bulb-2').setAttribute('src', 'static/bulb_off.svg');
+            }">Switch 3</button>
+        </div>
+        <div class="right">
+            <img  id="light-bulb-0" src="static/bulb_off.svg">
+            <img  id="light-bulb-1" src="static/bulb_off.svg">
+            <img  id="light-bulb-2" src="static/bulb_off.svg">
+        </div>
+    </div>
+
+    <div class="slide capabilities capabilities_2">
+        <div class="content">
+            <img id="silly-boi" src="static/silly_boi_2.jpg" style="opacity: 0;">
+
+            <button onclick="{
+                let mostrado = document.getElementById('silly-boi').style.opacity != 0;
+
+                mostrado
+                    ? document.getElementById('silly-boi').style.opacity = 0
+                    : document.getElementById('silly-boi').style.opacity = 1;
+
+                mostrado
+                    ? this.innerText = 'Mostrar segredo'
+                    : this.innerText = 'Esconder segredo';
+            }">Mostrar segredo</button>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script>
+
+    <script rel="script/Javascript" src="./embed-loader.js"></script>
+    <script rel="script/Javascript" src="./script.js"></script>
+</body>
+</html>
